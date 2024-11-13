@@ -25,10 +25,14 @@ SECRET_KEY = 'django-insecure-ie)yd6t59#+*)ewsw1d!zb^won%q_i1f*#f)7afz6h37%3f#x5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  "aljabar-backend-production.up.railway.app",
+  "localhost",
+  "127.0.0.1"
+]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Ubah sesuai dengan port frontend Anda
+    "http://localhost:5173",
     "http://localhost:8000",
 ]
 
