@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "https://aljabar-frontend.vercel.app",
     "http://localhost:5173",
     "http://localhost:8000",
 ]
