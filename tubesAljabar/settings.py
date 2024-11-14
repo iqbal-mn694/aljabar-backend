@@ -26,9 +26,10 @@ SECRET_KEY = 'django-insecure-ie)yd6t59#+*)ewsw1d!zb^won%q_i1f*#f)7afz6h37%3f#x5
 DEBUG = True
 
 ALLOWED_HOSTS = [
-  "aljabar-backend-production.up.railway.app",
-  "localhost",
-  "127.0.0.1"
+    "aljabar-frontend.vercel.app",
+    "aljabar-backend-production.up.railway.app",
+    "localhost",
+    "127.0.0.1"
 ]
 
 CORS_ALLOWED_ORIGINS = [
