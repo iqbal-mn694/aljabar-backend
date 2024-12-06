@@ -19,6 +19,7 @@ class SongRecommender:
 
 
         self.normalized_features = normalize(features_matrix) # menormalkan data jika ada data anomali
+        
         self.similarity_matrix = np.dot(self.normalized_features, self.normalized_features.T) # menghitung nilai cosine similarity dari lagu-lagu di dataset
         
         # mengambil data data lagu yang diperlukan dari dataset 
